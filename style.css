@@ -1,16 +1,36 @@
 body {
-    margin: 0 ;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
-    color: 000000;
+    color: #ffffff;
 }
 
 .fond_1 {
-    background-color:#d1d1d1 ;
+    background-color:#C89C7D ;
 }
 
 .logo_principal{
     width: 10% ;
+}
+
+.nouveautés{
+    text-align: center;
+}
+
+.illu_nouveautés{
+    width: 75% ;
+    border-radius: 10px;
+}
+
+.nouveautés a{
+
+    background-color: #985717;
+    text-align: center;
+    padding: 9px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+
 }
