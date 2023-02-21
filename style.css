@@ -1,0 +1,16 @@
+body {
+    margin: 0 ;
+}
+
+h1 {
+    text-align: center;
+    color: 000000;
+}
+
+.fond_1 {
+    background-color:#d1d1d1 ;
+}
+
+.logo_principal{
+    width: 10% ;
+}
