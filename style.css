@@ -1,71 +1,88 @@
-body {
-    margin: 0;
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color:#C89C7D ;
 }
-
-h1 {
-    text-align: center;
-    color: #ffffff;
+.marges{
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 .font1{
     color: #ffffff;
-    text-decoration: none; 
-    text-align: right;
-}
-
-.acc_bar{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.bg_acc_bar{
-    display: flex;
-    flex-direction: row;
-    background-color: #9f672f;
-    padding: 3px;
-    color: #ffffff;
     text-decoration: none;
-    border-radius: 10px;
-    justify-content: space-around;
-    align-items: center;
+    font-family: 'Shantell Sans', cursive;
 }
-.button_nav{
+.header h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+.bg2{
+    background-color: #985717;
+}
+.bg3{
+    background-color: #ffffff4d 
+}
+.sous_header{
+    display: flex;
+    flex-direction: row;
+    background-color: #985717;
+    justify-content : space-between;
+    align-items: center;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+.sous_header img{
+    display: flex;
+    width: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #985717;
+}
+.sous_header ul{ 
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    justify-content: space-around;
+    gap: 1em;
+    background-color: #ffffff4d;
+    align-items: center;
+    border-radius: 9px;
+ }
+.navicon{
+    display: flex;
+    background-color: #ffffff4d;
+    border-radius: 9px;
+    margin: 7px
+
+ }
+.nouveautés{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center
+}
+.illu_nouveautés{
+    display: flex;
+    padding: 100px;
+    background-image: url(images/Nouveautés.png);
+    width: 50% ;
+    border-radius: 10px;
+    box-shadow: 6px -6px 10px #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nouveautés_button{
+    display: flex;
     background-color: #985717;
     text-align: center;
     padding: 10px;
     color: #ffffff;
     text-decoration: none;
     border-radius: 10px;
-}
-
-.fond_1 {
-    background-color:#C89C7D ;
-}
-
-.logo_principal{
-    width: 7% ;
-}
-
-.nouveautés{
-    text-align: center;
-}
-
-.illu_nouveautés{
-    width: 75% ;
-    border-radius: 10px;
-    box-shadow: #ffffff;
-}
-
-.nouveautés_button{
-
-    background-color: #985717;
-    text-align: center;
-    padding: 9px;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 10px;
-
 }
