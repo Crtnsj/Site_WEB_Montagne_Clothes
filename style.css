@@ -7,12 +7,46 @@ h1 {
     color: #ffffff;
 }
 
+.font1{
+    color: #ffffff;
+    text-decoration: none; 
+    text-align: right;
+}
+
+.acc_bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_acc_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #9f672f;
+    padding: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.button_nav{
+    background-color: #985717;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
 .fond_1 {
     background-color:#C89C7D ;
 }
 
 .logo_principal{
-    width: 10% ;
+    width: 7% ;
 }
 
 .nouveautés{
@@ -22,9 +56,10 @@ h1 {
 .illu_nouveautés{
     width: 75% ;
     border-radius: 10px;
+    box-shadow: #ffffff;
 }
 
-.nouveautés a{
+.nouveautés_button{
 
     background-color: #985717;
     text-align: center;
