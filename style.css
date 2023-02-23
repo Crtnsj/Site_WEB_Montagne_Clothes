@@ -2,16 +2,29 @@
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    background-color:#C89C7D ;
+    /* background-color:#CEECF2 ; */
 }
 .marges{
     margin-left: 30px;
     margin-right: 30px;
 }
+.nomarges{
+    margin: 0px;
+    padding: 0px;
+}
 .font1{
     color: #ffffff;
     text-decoration: none;
     font-family: 'Shantell Sans', cursive;
+}
+.fontbutnav{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000000;
+}
+.body{
+    background-color:#CEECF2 ;
 }
 .header h1 {
     text-align: center;
@@ -19,28 +32,31 @@
     background-color: #000000;
 }
 .bg2{
-    background-color: #985717;
+    background-color: #6593A6;
 }
 .bg3{
-    background-color: #ffffff4d 
+    background-color: #6593A6 
 }
 .sous_header{
     display: flex;
     flex-direction: row;
-    background-color: #985717;
+    background-color: #6593A6;
     justify-content : space-between;
+    box-shadow: 3px -3px 5px #000000;
     align-items: center;
     border-radius: 9px;
     margin-bottom: 20px;
+    margin-right: 10rem;
+    margin-left: 10rem;
 }
-.sous_header img{
+.sous_header a{
     display: flex;
-    width: 5%;
+    /* width: 10%; */
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
-    background-color: #985717;
+    /* background-color: #6593A6; */
 }
 .sous_header ul{ 
     display: flex;
@@ -49,16 +65,21 @@
     padding: 0px;
     list-style: none;
     justify-content: space-around;
-    gap: 1em;
-    background-color: #ffffff4d;
+    gap: 0.5em;
     align-items: center;
     border-radius: 9px;
+    background-color: #6593A6;
+    /* border: 2px solid brown; */
  }
-.navicon{
+.navicon li{
     display: flex;
-    background-color: #ffffff4d;
-    border-radius: 9px;
-    margin: 7px
+    border-radius: 4px;
+    /* border: 2px solid purple; */
+    margin: 7px;
+    padding: 5px;
+    box-shadow: 3px -3px 5px #000000;
+    background-color:#CEECF2
+
 
  }
 .nouveautés{
@@ -69,20 +90,35 @@
 }
 .illu_nouveautés{
     display: flex;
-    padding: 100px;
     background-image: url(images/Nouveautés.png);
+    background-size: cover;
     width: 50% ;
     border-radius: 10px;
-    box-shadow: 6px -6px 10px #FFFFFF;
-    margin-left: auto;
-    margin-right: auto;
+    box-shadow: 3px -3px 5px #000000;
+    justify-content: center;
+    align-content: end;
 }
 .nouveautés_button{
     display: flex;
-    background-color: #985717;
+    background-color: #CEECF2;
     text-align: center;
-    padding: 10px;
-    color: #ffffff;
+    padding: 5px;
+    color: #000000;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 95px;
+    margin-bottom: 5px;
+    box-shadow: 2px -2px 3px #000000;
+}
+.meillvente{
+    display: flex;
+}
+.main{
+    background-color:#CEECF2 ;
+}
+.footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
 }
