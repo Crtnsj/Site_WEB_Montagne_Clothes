@@ -109,7 +109,7 @@ main {
     width: 15rem;
 }
 .espritpic2{
-    border-radius: 38% 62% 26% 74% / 53% 43% 57% 47% ;
+    border-radius: 50% 50% 75% 25% / 70% 68% 32% 30%  ;
     width: 15rem;
 }
 .para1{
@@ -146,6 +146,8 @@ main {
  display: flex;
 }
 .para2 img {
+    margin-left: 10rem;
+    margin-right: 0px;
 }
 .texte2{
     display: flex;
@@ -160,6 +162,8 @@ main {
     font-family: 'Shantell Sans', cursive;
     padding-right: 1rem;
     text-align: justify;
+    margin-right: 5rem;
+    margin-left: 1rem;
     }
 .texte2 h1{
     display: flex;
@@ -168,4 +172,6 @@ main {
     color: #000000;
     text-decoration: none;
     font-family: 'Shantell Sans', cursive;
+    margin-left: 0px;
+    align-content: start;
 }
