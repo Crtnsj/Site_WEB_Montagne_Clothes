@@ -91,16 +91,16 @@
 
 
  }
-.montains{
+.mountains{
     display: flex;
-    background-image: url(../images/montains.png);
+    background-image: url(../images/mountains.png);
     background-size: auto;
     background-position: top;
     background-attachment: fixed;
     justify-content: center;
     height: 375px; 
 }
-.montains section{
+.mountains section{
     display: flex;
     justify-content: center;
 }

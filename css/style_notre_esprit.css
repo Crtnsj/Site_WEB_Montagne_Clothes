@@ -108,6 +108,10 @@ main {
     border-radius: 38% 62% 26% 74% / 53% 43% 57% 47% ;
     width: 15rem;
 }
+.espritpic2{
+    border-radius: 38% 62% 26% 74% / 53% 43% 57% 47% ;
+    width: 15rem;
+}
 .para1{
     display: flex;
 }
@@ -139,5 +143,29 @@ main {
     font-family: 'Shantell Sans', cursive;
 }
 .para2{
-
+ display: flex;
+}
+.para2 img {
+}
+.texte2{
+    display: flex;
+    flex-direction: column;
+}
+.texte2 p{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Shantell Sans', cursive;
+    padding-right: 1rem;
+    text-align: justify;
+    }
+.texte2 h1{
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 2rem;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Shantell Sans', cursive;
 }
