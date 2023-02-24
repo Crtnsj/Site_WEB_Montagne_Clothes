@@ -1,13 +1,5 @@
 *{
     margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-html, body {
-    min-height: 100vh;
-}
-main {
-    flex-grow: 1;
 }
 .marges{
     margin-left: 2rem;
@@ -17,89 +9,80 @@ main {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    padding: 0px;
+    margin-top: 0px;
 }
 .font1{
     color: #ffffff;
     text-decoration: none;
     font-family: 'Shantell Sans', cursive;
 }
-.font2{
-    color: #000000;
-    text-decoration: none;
-    font-family: 'Shantell Sans', cursive;
-    font-size: 2rem;
+.bg2{
+    background-color: #6593A6;
 }
 .fontbutnav{
     font-family: 'Shantell Sans', cursive;
-    font-size: 1.5em;
+    font-size: 1.50rem;
     text-decoration: none;
     color: #000000;
+    text-align: justify;
 }
 .body{
     background-color:#CEECF2 ;
+    margin-bottom: 0px;
+}
+.header{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 .header h1 {
     text-align: center;
     color: #ffffff;
     background-color: #273859;
 }
-.bg2{
-    background-color: #6593A6;
-}
-.bg3{
-    background-color: #6593A6 
-}
 .sous_header{
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
-    background-color: #6593A6;
     justify-content : space-between;
-    box-shadow: 3px -3px 5px #000000;
     align-items: center;
-    border-radius: 9px;
-    margin-bottom: 30px;
+    box-shadow: 3px -3px 5px #000000;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
     margin-right: 10rem;
     margin-left: 10rem;
 }
-.sous_header a{
-    display: flex;
-    /* width: 10%; */
+#logo{
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
-    /* background-color: #6593A6; */
+}
+#connexion{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    align-content: center;
+}
+.logoconnex{
+    width: 8rem;
 }
 .sous_header ul{ 
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
-    list-style: none;
-    justify-content: space-around;
-    gap: 0.5em;
+    justify-content: center;
     align-items: center;
-    border-radius: 9px;
-    background-color: #6593A6;
-    /* border: 2px solid brown; */
+    list-style: none;
+    gap: 0.5em;
  }
 .navicon li{
-    display: flex;
-    border-radius: 4px;
-    /* border: 2px solid purple; */
-    margin: 7px;
-    padding: 5px;
+    border-radius: 0.25rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
     box-shadow: 3px -3px 5px #000000;
     background-color:#CEECF2;
-    flex-shrink: 1;
-
-
- }
+    white-space: nowrap;
+}
 .main{
     background-color:#CEECF2 ;
 }
