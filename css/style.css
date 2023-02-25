@@ -1,25 +1,32 @@
 *{
     margin-top: 0;
 }
-* {
-    scrollbar-width: thin;
-    scrollbar-color: #B0D1D9 orange;
-  }
-  
-  /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
     width: 1.5rem;
-  }
-  
+}
 *::-webkit-scrollbar-track {
     background: #273859;
-  }
-  
+}
 *::-webkit-scrollbar-thumb {
     background-color: #B0D1D9;
     border-radius: 0.5rem;
     border: 3px solid #273859;
-  }
+}
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#CEECF2 ;
+}
+main {
+    flex-grow: 1;
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #273859;
+    margin-top: 2rem;
+}
 .marges{
     margin-left: 2rem;
     margin-right: 3rem;
@@ -44,10 +51,6 @@
     text-decoration: none;
     color: #000000;
     text-align: justify;
-}
-.body{
-    background-color:#CEECF2 ;
-    margin-bottom: 0px;
 }
 .header{
     display: flex;
@@ -205,13 +208,4 @@
     font-family: 'Shantell Sans', cursive;
     padding: 0.5rem;
     border-radius: 0.5rem;
-}
-.footer {
-    text-align: center;
-    color: #ffffff;
-    background-color: #273859;
-    padding-bottom: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 0px;
-    
 }

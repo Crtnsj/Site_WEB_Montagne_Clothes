@@ -43,10 +43,6 @@ footer {
     color: #000000;
     text-align: justify;
 }
-.body{
-    background-color:#CEECF2 ;
-    margin-bottom: 0px;
-}
 .header{
     display: flex;
     flex-direction: column;

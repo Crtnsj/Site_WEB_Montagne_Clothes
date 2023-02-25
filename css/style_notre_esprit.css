@@ -7,6 +7,16 @@ html, body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #CEECF2;
+}
+main {
+    flex-grow: 1;
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #273859;
+    margin-top: 2rem;
 }
 .marges{
     margin-left: 2rem;
@@ -32,10 +42,6 @@ html, body {
     text-decoration: none;
     color: #000000;
     text-align: justify;
-}
-.body{
-    background-color:#CEECF2 ;
-    margin-bottom: 0px;
 }
 .header{
     display: flex;
@@ -89,10 +95,6 @@ html, body {
     box-shadow: 3px -3px 5px #000000;
     background-color:#CEECF2;
     white-space: nowrap;
-}
-.main{
-    background-color:#CEECF2 ;
-    flex-grow: 1;
 }
 .espritpic1{
     border-radius: 38% 62% 26% 74% / 53% 43% 57% 47% ;
@@ -164,10 +166,4 @@ html, body {
     font-family: 'Shantell Sans', cursive;
     margin-left: 0px;
     align-content: start;
-}
-.footer {
-    text-align: center;
-    color: #ffffff;
-    background-color: #273859;
-    margin-top: 2rem;
 }

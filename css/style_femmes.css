@@ -1,7 +1,5 @@
 *{
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0;
 }
 html, body {
     display: flex;
@@ -42,10 +40,6 @@ footer {
     text-decoration: none;
     color: #000000;
     text-align: justify;
-}
-.body{
-    background-color:#CEECF2 ;
-    margin-bottom: 0px;
 }
 .header{
     display: flex;
