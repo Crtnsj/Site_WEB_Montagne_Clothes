@@ -3,11 +3,40 @@
     margin-left: 0px;
     margin-right: 0px;
 }
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: orange;
+  }
+  
+*::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid orange;
+  }
 html, body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    background-color:#CEECF2 ;
 }
 main {
     flex-grow: 1;
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #273859;
+    margin-top: 2rem;
 }
 .marges{
     margin-left: 2rem;
@@ -90,13 +119,4 @@ main {
     box-shadow: 3px -3px 5px #000000;
     background-color:#CEECF2;
     white-space: nowrap;
-}
-.main{
-    background-color:#CEECF2 ;
-}
-.footer {
-    text-align: center;
-    color: #ffffff;
-    background-color: #273859;
-    margin-top: 2rem;
 }

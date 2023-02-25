@@ -1,6 +1,25 @@
 *{
     margin-top: 0;
 }
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #B0D1D9 orange;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 1.5rem;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: #273859;
+  }
+  
+*::-webkit-scrollbar-thumb {
+    background-color: #B0D1D9;
+    border-radius: 0.5rem;
+    border: 3px solid #273859;
+  }
 .marges{
     margin-left: 2rem;
     margin-right: 3rem;

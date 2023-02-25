@@ -4,10 +4,9 @@
     margin-right: 0px;
 }
 html, body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
-}
-main {
-    flex-grow: 1;
 }
 .marges{
     margin-left: 2rem;
@@ -93,6 +92,7 @@ main {
 }
 .main{
     background-color:#CEECF2 ;
+    flex-grow: 1;
 }
 .espritpic1{
     border-radius: 38% 62% 26% 74% / 53% 43% 57% 47% ;
@@ -164,4 +164,10 @@ main {
     font-family: 'Shantell Sans', cursive;
     margin-left: 0px;
     align-content: start;
+}
+.footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #273859;
+    margin-top: 2rem;
 }
