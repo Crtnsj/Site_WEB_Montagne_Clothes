@@ -84,6 +84,9 @@ footer {
     margin-right: 2%;
     align-content: center;
 }
+.logoprincipal{
+    width: 5rem;
+}
 .logoconnex{
     width: 8rem;
 }
@@ -105,6 +108,15 @@ footer {
     background-color:#CEECF2;
     white-space: nowrap;
  }
+.navicon li:hover{
+    background-color: #273859;
+    color: #FFFFFF;
+}
+.navicon li a:hover{
+    background-color: #273859;
+    color: #FFFFFF;
+}
+
 .mountains{
     display: flex;
     background-image: url(../images/mountains.png);
@@ -208,4 +220,32 @@ footer {
     font-family: 'Shantell Sans', cursive;
     padding: 0.5rem;
     border-radius: 0.5rem;
+}
+@media screen and (max-width: 750px) {
+    .sous_header{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .logoprincipal{
+        width: 3rem;
+    }
+    .logoconnex{
+        width: 5rem;
+    }
+    .sous_header ul{ 
+        display: flex;
+        flex-direction: column;
+     }
+     .navicon li{
+        width: 10rem;
+        height: 2rem;
+        text-align: center;
+     }
+     .fontbutnav{
+        font-family: 'Shantell Sans', cursive;
+        font-size: 1rem;
+    }
 }
