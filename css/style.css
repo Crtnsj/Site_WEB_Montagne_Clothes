@@ -90,6 +90,9 @@ footer {
 .logoconnex{
     width: 8rem;
 }
+.sous_header h2{
+    display: none;
+}
 .sous_header ul{ 
     display: flex;
     flex-wrap: wrap;
@@ -107,6 +110,8 @@ footer {
     box-shadow: 3px -3px 5px #000000;
     background-color:#CEECF2;
     white-space: nowrap;
+    width: 8.5rem;
+    text-align: center;
  }
 .navicon li:hover{
     background-color: #273859;
@@ -115,6 +120,11 @@ footer {
 .navicon li a:hover{
     color: #FFFFFF;
     transition: .10s;
+}
+.menuhamb{
+    display: none;
+    position: absolute;
+
 }
 
 .mountains{
@@ -222,32 +232,63 @@ footer {
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
+.attributs a:hover{
+    background-color: #273859;
+    color: #FFFFFF;
+}
 @media screen and (max-width: 750px) {
     .sous_header{
         display: flex;
-        flex-direction: column;
         margin-bottom: 2rem;
         margin-right: 1rem;
         margin-left: 1rem;
     }
     .logoprincipal{
         width: 3rem;
+        margin-left: 3rem;
     }
     .logoconnex{
         width: 5rem;
     }
+    .sous_header h2{
+        display: flex;
+    }
+    .menuhamb{
+        display: block;
+        width: 3rem;
+        order: -1;
+    }
+
+    .sous_header div{
+        position: absolute;
+        display: flex;
+        background-color: #ffffff6d;
+        backdrop-filter: blur(3px);
+        width: 100%;
+        height:100vh;
+        top: 0;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: 1s;
+    }
+    .sous_header div.mobile-menu{
+        margin-left: 0;
+    }
     .sous_header ul{ 
         display: flex;
         flex-direction: column;
+        margin: 0;
+        gap: 2rem;
      }
      .navicon li{
-        width: 10rem;
-        height: 2rem;
-        text-align: center;
+        width: 16rem;
+        height: 4rem;
      }
      .fontbutnav{
         font-family: 'Shantell Sans', cursive;
-        font-size: 1rem;
+        font-size: 3rem;
     }
     .meillvente h2{
         margin-left: 1rem;

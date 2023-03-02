@@ -20,13 +20,17 @@
         
             <nav class="sous_header bg2">
                 <a id="logo" href="/"><img src="images/logo_det.png" alt="image not found" title="Logo Mountain Clothes" class="logoprincipal"></a>
-                <ul class="navicon">
-                    <li><a href="/" class="fontbutnav">Accueil</a></li>
-                    <li><a href="html/Hommes.html" class="fontbutnav">Hommes</a></li>
-                    <li><a href="html/Femmes.html" class="fontbutnav">Femmes</a></li>
-                    <li><a href="html/Nouveautés.html" class="fontbutnav">Nouveautés</a></li>
-                    <li><a href="html/Notre_esprit.html" class="fontbutnav">Notre esprit</a></li>
-                </ul>
+                <h2>Bienvenue !</h2>
+                <div>
+                    <ul class="navicon">
+                        <li><a href="/" class="fontbutnav">Accueil</a></li>
+                        <li><a href="html/Hommes.html" class="fontbutnav">Hommes</a></li>
+                        <li><a href="html/Femmes.html" class="fontbutnav">Femmes</a></li>
+                        <li><a href="html/Nouveautés.html" class="fontbutnav">Nouveautés</a></li>
+                        <li><a href="html/Notre_esprit.html" class="fontbutnav">Notre esprit</a></li>
+                    </ul>
+                </div>
+                <img src="images/menuhamb.png" class="menuhamb">
                 <a id="connexion" href="html/Connexion.html"><img src="images/Connexion.png" alt="image not found" title="Logo Connexion" class="logoconnex"> </a>
             </nav>
         </header>
@@ -93,5 +97,12 @@
         </footer>
         
     </body>
-
+    <script>
+        const menuHamburger = document.querySelector(".menuhamb")
+        const navLinks = document.querySelector(".sous_header div")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </html>
