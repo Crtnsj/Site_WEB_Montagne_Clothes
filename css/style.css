@@ -110,11 +110,11 @@ footer {
  }
 .navicon li:hover{
     background-color: #273859;
-    color: #FFFFFF;
+    transition: .10s;
 }
 .navicon li a:hover{
-    background-color: #273859;
     color: #FFFFFF;
+    transition: .10s;
 }
 
 .mountains{
@@ -160,9 +160,9 @@ footer {
     max-height: 20px;
     box-shadow: 2px -2px 3px #000000;
 }
-.meillvente{
-    display: flex;
-    flex-direction: column;
+.nouveautés_button:hover{
+    color: #000000;
+    background-color: #B0D1D9;
 }
 .meillvente h2{
     background-color:#273859;
@@ -190,12 +190,13 @@ footer {
     align-items: center;
     border-radius: 0.5rem;
     padding: 1rem;
+    width: 13rem;
 }
 .attributs img{
     display: flex;
     margin-top: 1rem;
-    width: 15rem;
-    border-radius: 1rem;
+    width: 12rem;
+    border-radius: 0.5rem;
 
 }
 .attributs h3{
@@ -247,5 +248,30 @@ footer {
      .fontbutnav{
         font-family: 'Shantell Sans', cursive;
         font-size: 1rem;
+    }
+    .meillvente h2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .articles{
+        gap: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .attributs{
+        width: 6rem;
+    }
+    .attributs img{
+        width: 6rem;
+    }
+    .attributs h3{
+        font-size: 0.75rem;
+        margin-bottom: 0rem;
+    }
+    .attributs p{
+        font-size: 0.75rem;
+    }
+    .attributs a{
+        font-size: 0.75rem;
     }
 }
