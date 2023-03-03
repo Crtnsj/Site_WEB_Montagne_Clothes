@@ -252,43 +252,43 @@ footer {
     }
     .sous_header h2{
         display: flex;
+        margin: 0;
     }
     .menuhamb{
         display: block;
         width: 3rem;
         order: -1;
     }
-
     .sous_header div{
         position: absolute;
         display: flex;
         background-color: #ffffff6d;
         backdrop-filter: blur(3px);
         width: 100%;
-        height:100vh;
+        height:110vh;
         top: 0;
         left: 0;
         align-items: center;
         justify-content: center;
-        margin-left: -100%;
+        margin-top: -500%;
         transition: 1s;
     }
     .sous_header div.mobile-menu{
-        margin-left: 0;
+        margin-top: 0px;
     }
     .sous_header ul{ 
         display: flex;
         flex-direction: column;
         margin: 0;
         gap: 2rem;
-     }
-     .navicon li{
-        width: 16rem;
+    }
+    .navicon li{
+        width: 14rem;
         height: 4rem;
-     }
-     .fontbutnav{
+    }
+    .fontbutnav{
         font-family: 'Shantell Sans', cursive;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .meillvente h2{
         margin-left: 1rem;
