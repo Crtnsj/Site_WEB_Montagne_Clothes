@@ -1,0 +1,12 @@
+{
+  "name": "projet_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css ./sass/connexion.scss:./css/style_connexion.css ./sass/home.scss:./css/style_home.css ./sass/accueil.scss:./css/style_accueil.css"
+  },
+  "author": "",
+  "license": "ISC"
+
+}
